@@ -7,7 +7,7 @@ let advertHtml = "";
 deals.forEach((deal) => {
     dealHtml += `
         <div class="deal-item">
-            <img src="images/${deal.image}" alt="${deal.title}" class="deal-image">
+            <img src="${deal.image}" alt="${deal.title}" class="deal-image">
             <p class="deal-title">${deal.title}</p>
         </div>
     `;
@@ -16,7 +16,7 @@ deals.forEach((deal) => {
 advert.forEach((ad) => {
     advertHtml += `
         <div class="advert-item">
-            <img src="images/${ad.image}" alt="${ad.title}">
+            <img src="${ad.image}" alt="${ad.title}">
         </div>
     `;
 });

@@ -20,7 +20,7 @@ export const deals = [
 
 
   export const advert = [{
-    image: "images/advert1.jpg",
+    image: "https://ng.jumia.is/cms/0-1-weekly-cps/0-2025/Global-mini-Campaigns/Week-15/Updated_Sliders/ECSF_712X384.png",
     title: "Advert 1"
   }, {
     image: "images/advert2.gif",
