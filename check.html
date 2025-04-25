@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumia Project</title>
+    <link rel="stylesheet" href="styles/jumia.css">    
+</head>
+<body>
+    <header>
+        <section class="header-container">
+            <div class="logo-container">
+                <img src="images/Brown And White Minimalist Initial Logo_20241005_115521_0000.png" alt="logo" class="logo">
+            </div>
+
+            <div class="search-container search">
+                <input type="text" placeholder="Search for products, brands and categories" class="search-bar">
+                <button class="search-button">Search</button>
+            </div>
+
+			<div class="header-nav-links">
+				<div class="header-link-container">
+					<a href="create-account.html" class="twin">
+						<img src="images/account.png" alt="Acct" class="small-png">
+						<p class="exp">Account</p>
+					</a>
+				</div>
+				<div class="header-link-container">
+					<a href="contact-us.html" class="twin">
+						<img src="images/help.png" alt="help" class="small-png">
+						<p class="exp">Help</p>
+					</a>
+				</div>
+				<div class="header-link-container">
+					<button id="cartButton" class="cart-button twin" aria-label="Shopping Cart">
+						<span class="cart-icon">🛒</span>
+						<span class="cart-count">0</span>
+					</button>
+				</div>
+			</div>
+        </section>
+    </header>
+
+    <div id="cartModal" class="cart-modal">
+        <div class="cart-content">
+            <span class="close-cart">&times;</span>
+            <h2>Your Shopping Cart</h2>
+            <div id="cartItems" class="cart-items">
+                <!-- Cart items will be inserted here -->
+            </div>
+            <div class="cart-total">
+                <p>Total: <span id="cartTotal">₦0</span></p>
+                <button id="checkoutBtn" class="checkout-btn">Checkout</button>
+                <button id="clearCartBtn" class="clear-cart-btn">Clear Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section class="services">
+            <section class="categories-menu">
+                <ul class="categories">
+                    <li><a href="electronics.html">Electronics</a></li>
+                    <li><a href="fashion.html">Fashion</a></li>
+                    <li><a href="home-appliances.html">Home Appliances</a></li>
+                    <li><a href="books.html">Books</a></li>
+                    <li><a href="toys.html">Toys</a></li>
+                    <li><a href="sports.html">Sports</a></li>
+                    <li><a href="groceries.html">Groceries</a></li>
+                    <li><a href="health-beauty.html">Health & Beauty</a></li>
+                    <li><a href="automotive.html">Automotive</a></li>
+                    <li><a href="baby-products.html">Baby Products</a></li>
+                </ul>
+            </section>
+
+            <div class="advert-slide slide">
+				<!-- slides will be displayed here -->
+			</div>
+			<!-- <div class="slideshow-nav">
+				<button class="prev" onclick="plusSlides(-1)">❮</button>
+				<button class="next" onclick="plusSlides(1)">❯</button>
+			</div> -->
+
+            <section class="call-to-partnership">
+                <section class="partnership-contact">
+					<section class="partnership-opportunities twin">
+						<img src="images/call.png" alt="call-svg" class="small-icon">
+						<h5>Call To Order</h5>
+						<!-- <p>09027554682</p> -->
+					</section>
+	
+					<section class="partnership-opportunities twin">
+						<img src="images/shop.png" alt="shop-svg" class="small-icon">
+						<h5>Become a Vendor</h5>
+					</section>
+	
+					<section class="partnership-opportunities twin">
+						<img src="images/van.png" alt="van-svg" class="small-icon">
+						<h5>Send your Package</h5>
+					</section>
+				</section>
+
+				<section class="contact-button">
+					<a href="contact-us.html" class="contact-us-button">Contact Us</a>
+				</section>
+            </section>
+        </section>
+
+		<section class="deals">
+			<!-- <div class="deal">
+				<img src="images/awoof.png" alt="awoof">
+				<h3>Awoof</h3>
+			</div> -->
+		</section>
+    </main>
+	<script type="module" src="scripts/jumia.js"></script>
+</body>
+</html>
