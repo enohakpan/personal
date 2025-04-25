@@ -1,4 +1,4 @@
-import { deals, advert } from "./deals.js";
+import { deals, advert } from "../data/deals.js";
 
 let dealHtml = "";
 let advertHtml = "";
