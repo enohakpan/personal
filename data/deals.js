@@ -1,11 +1,11 @@
 export const deals = [
-  {image: "images/awoof.png",
+  {image: "/images/awoof.png",
     title: "Awoof"
   }, {
-    image: "images/appliances-deals.png",
+    image: "/images/appliances-deals.png",
     title: "Appliances"
   }, {
-    image: "images/discount.gif",
+    image: "/images/discount.gif",
     title: "Up to 50% off"
   }, {
     image: "images/phones-and-tablets.png",
