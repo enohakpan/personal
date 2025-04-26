@@ -2,44 +2,46 @@
  */
 
 const deals = [
-  {imageUrl: "https://enohakpan.github.io/personal/images/awoof.png",
+  {imageUrl: "images/awoof.webp",
     title: "Awoof"
   }, {
-    imageUrl: "/images/appliances-deals.png",
+    imageUrl: "images/appliances.webp",
     title: "Appliances"
   }, {
-    imageUrl: "/images/discount.gif",
+    imageUrl: "images/discount.webp",
     title: "Up to 50% off"
   }, {
-    imageUrl: "/images/phones-and-tablets.png",
+    imageUrl: "images/phones-and-tablets.webp",
     title: "Phones and Tablets"
   }, {
-    imageUrl: "/images/tv-and-audio.png",
+    imageUrl: "images/tv-and-audio.webp",
     title: "TV and Audio Devices"
   }, {
-    imageUrl: "/images/up-to-80-off.png",
+    imageUrl: "images/up-to-80-off.webp",
     title: "Up to 80% off"
   }];
 
 
   const advert = [{
-    imageUrl: "https://i.imgur.com/vx3alN2.jpeg",
+    imageUrl: "images/advert1.webp",
     title: "Advert 1"
   }, 
   {
-    imageUrl: "https://i.imgur.com/vwOwswo.gif",
+    imageUrl: "images/advert2.webp",
+      // https://i.imgur.com/vwOwswo.gif
     title: "Advert 2"
   }, 
   {
-    imageUrl: "https://i.imgur.com/RELJVLg.gif",
+    imageUrl: "images/advert3.webp",
     title: "Advert 3"
   }, 
   {
-    imageUrl: "https://i.imgur.com/TwkLjaT.jpeg",
+    imageUrl: "images/advert4.webp",
     title: "Advert 4"
   }, 
   {
-    imageUrl: "https://i.imgur.com/GJ5LuGG.png",
+    imageUrl: "images/advert5.webp",
+    // imageUrl: "https://i.imgur.com/GJ5LuGG.png",
     title: "Advert 5"
   }];
 
