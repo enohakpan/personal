@@ -1,5 +1,5 @@
 export const deals = [
-  {image: "/images/awoof.png",
+  {image: "https://enohakpan.github.io/personal/images/awoof.png",
     title: "Awoof"
   }, {
     image: "/images/appliances-deals.png",
