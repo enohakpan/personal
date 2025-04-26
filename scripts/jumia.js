@@ -2,40 +2,44 @@
  */
 
 const deals = [
-  {image: "https://enohakpan.github.io/personal/images/awoof.png",
+  {imageUrl: "https://enohakpan.github.io/personal/images/awoof.png",
     title: "Awoof"
   }, {
-    image: "/images/appliances-deals.png",
+    imageUrl: "/images/appliances-deals.png",
     title: "Appliances"
   }, {
-    image: "/images/discount.gif",
+    imageUrl: "/images/discount.gif",
     title: "Up to 50% off"
   }, {
-    image: "/images/phones-and-tablets.png",
+    imageUrl: "/images/phones-and-tablets.png",
     title: "Phones and Tablets"
   }, {
-    image: "/images/tv-and-audio.png",
+    imageUrl: "/images/tv-and-audio.png",
     title: "TV and Audio Devices"
   }, {
-    image: "/images/up-to-80-off.png",
+    imageUrl: "/images/up-to-80-off.png",
     title: "Up to 80% off"
   }];
 
 
   const advert = [{
-    image: "/images/advert1.jpg",
+    imageUrl: "https://i.imgur.com/vx3alN2.jpeg",
     title: "Advert 1"
-  }, {
-    image: "/images/advert2.gif",
+  }, 
+  {
+    imageUrl: "https://i.imgur.com/vwOwswo.gif",
     title: "Advert 2"
-  }, {
-    image: "/images/advert3.gif",
+  }, 
+  {
+    imageUrl: "https://i.imgur.com/RELJVLg.gif",
     title: "Advert 3"
-  }, {
-    image: "/images/advert4.jpg",
+  }, 
+  {
+    imageUrl: "https://i.imgur.com/TwkLjaT.jpeg",
     title: "Advert 4"
-  }, {
-    image: "/images/advert5.png",
+  }, 
+  {
+    imageUrl: "https://i.imgur.com/GJ5LuGG.png",
     title: "Advert 5"
   }];
 
@@ -46,7 +50,7 @@ let advertHtml = "";
 deals.forEach((deal) => {
     dealHtml += `
         <div class="deal-item">
-            <img src="${deal.image}" alt="${deal.title}" class="deal-image">
+            <img src="${deal.imageUrl}" alt="${deal.title}" class="deal-image">
             <p class="deal-title">${deal.title}</p>
         </div>
     `;
@@ -55,7 +59,7 @@ deals.forEach((deal) => {
 advert.forEach((ad) => {
     advertHtml += `
         <div class="advert-item">
-            <img src="${ad.image}" alt="${ad.title}">
+            <img src="${ad.imageUrl}" alt="${ad.title}">
         </div>
     `;
 });
